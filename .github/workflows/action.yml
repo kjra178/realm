@@ -11,7 +11,7 @@ jobs:
         with:
           feedUrl: 'https://shop.erinstylr.online/a/rssfeed?type=collection&key=allproduct'
           # newestItemStrategy: 'latestDate'
-          postFormat: "New post: {title}\n\n{link}"
+          # postFormat: "New post: {title}\n\n{link}"
           # Twitter settings
           twitterEnable: true
           twitterPostFormat: "New post: {title}\n\n{link}"
