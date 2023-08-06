@@ -10,7 +10,7 @@ jobs:
         uses: lwojcik/github-action-feed-to-social-media@v2
         with:
           feedUrl: 'https://shop.erinstylr.online/a/rssfeed?type=collection&key=allproduct'
-          newestItemStrategy: 'latestDate'
+          //newestItemStrategy: 'latestDate'
           postFormat: "New post: {title}\n\n{link}"
           # Twitter settings
           twitterEnable: true
